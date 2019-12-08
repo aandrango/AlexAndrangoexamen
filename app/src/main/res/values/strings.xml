@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AlexAndrango-examen</string>
+    <string name="txtUsuario">Usuario:</string>
+    <string name="txtPass">Password:</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="txtNombre">Solicitar Nombre:</string>
+    <string name="txtMonto">Monto Inicial:</string>
+    <string name="txtPago">Pago Mensual:</string>
+    <string name="txtConectado">Usuario Conectado:</string>
+    <string name="txtSolicitado">Nombre Perfil:</string>
+    <string name="txtEducacion">Educacion:</string>
+    <string name="txtDep">Deporte Escoguido:</string>
+    <string name="txtIdi">Idioma Escogido:</string>
+    <string name="txtEducativo">Por que eligio este centro educativo??:</string>
+    <string name="txtDeporte">Que deporte Practica??:</string>
+    <string name="txtIdioma">esta interesado en aprender otro idioma aparte del ingñes??:</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnEnviar">Enviar</string>
+</resources>

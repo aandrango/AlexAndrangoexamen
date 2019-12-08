@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="161dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ingen" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:lineSpacingExtra="20dp"
+        android:text="@string/txtUsuario"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUsuario"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:lineSpacingExtra="24dp"
+        android:text="@string/txtPass"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="6"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edUsuario"
+        android:ems="8"
+        android:layout_centerInParent="true"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edPass"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/btnIngresar" />
+
+</RelativeLayout>
